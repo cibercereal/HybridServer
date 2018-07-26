@@ -1,0 +1,2768 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="PC-NICO" id="0" name="HybridServerSecondReleaseTestSuite" package="es.uvigo.esei.dai.hybridserver" skipped="0" tests="239" time="1522.618" timestamp="2018-01-04T21:26:26">
+      <properties>
+          <property name="ant.project.invoked-targets" value="release" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_151\bin" />
+
+          <property name="java.vm.version" value="25.151-b12" />
+
+          <property name="ant.library.dir" value="C:\Users\Nico\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="report.file" value="test.report" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.country" value="ES" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="user.dir" value="C:\Users\Nico\Documents\ingeniería informática\Cuarto\DAI\HybridServer" />
+
+          <property name="java.runtime.version" value="1.8.0_151-b12" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="basedir" value="C:\Users\Nico\Documents\ingeniería informática\Cuarto\DAI\HybridServer" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_151\lib\endorsed" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="ant.project.default-target" value="release" />
+
+          <property name="java.io.tmpdir" value="C:\Users\Nico\AppData\Local\Temp\" />
+
+          <property name="ant.core.lib" value="C:\Users\Nico\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="user.variant" value="" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="ant.home" value="C:\Users\Nico\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+
+          <property name="ant.project.name" value="HybridServer - Final" />
+
+          <property name="group" value="Grupo.1.4" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\Nico\AppData\Local\Microsoft\WindowsApps;C:\Users\Nico\AppData\Local\atom\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\Nico\eclipse\java-oxygen\eclipse;;." />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="ant.file" value="C:\Users\Nico\Documents\ingeniería informática\Cuarto\DAI\HybridServer\build2.xml" />
+
+          <property name="user.home" value="C:\Users\Nico" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="user.name" value="Nico" />
+
+          <property name="java.class.path" value="C:\Users\Nico\Documents\ingeniería informática\Cuarto\DAI\HybridServer\bin;C:\Users\Nico\Documents\ingeniería informática\Cuarto\DAI\HybridServer\lib\commons-logging-1.1.3.jar;C:\Users\Nico\Documents\ingeniería informática\Cuarto\DAI\HybridServer\lib\dbunit-2.5.3.jar;C:\Users\Nico\Documents\ingeniería informática\Cuarto\DAI\HybridServer\lib\derby.jar;C:\Users\Nico\Documents\ingeniería informática\Cuarto\DAI\HybridServer\lib\fluent-hc-4.3.5.jar;C:\Users\Nico\Documents\ingeniería informática\Cuarto\DAI\HybridServer\lib\httpclient-4.3.5.jar;C:\Users\Nico\Documents\ingeniería informática\Cuarto\DAI\HybridServer\lib\httpcore-4.3.2.jar;C:\Users\Nico\Documents\ingeniería informática\Cuarto\DAI\HybridServer\lib\java-hamcrest-2.0.0.0.jar;C:\Users\Nico\Documents\ingeniería informática\Cuarto\DAI\HybridServer\lib\junit-4.12.jar;C:\Users\Nico\Documents\ingeniería informática\Cuarto\DAI\HybridServer\lib\mysql-connector-java-5.1.22-bin.jar;C:\Users\Nico\Documents\ingeniería informática\Cuarto\DAI\HybridServer\lib\slf4j-api-1.7.7.jar;C:\Users\Nico\Documents\ingeniería informática\Cuarto\DAI\HybridServer\lib\slf4j-simple-1.7.7.jar;C:\Users\Nico\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\Nico\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\Nico\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\Nico\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
+
+          <property name="report.dir" value="C:\Users\Nico\Documents\ingeniería informática\Cuarto\DAI\HybridServer\report" />
+
+          <property name="ant.file.HybridServer - Final" value="C:\Users\Nico\Documents\ingeniería informática\Cuarto\DAI\HybridServer\build2.xml" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner es.uvigo.esei.dai.hybridserver.HybridServerSecondReleaseTestSuite skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Nico\Documents\ingeniería informática\Cuarto\DAI\HybridServer\test.report.xml crashfile=C:\Users\Nico\Documents\ingeniería informática\Cuarto\DAI\HybridServer\junitvmwatcher5757340814803746104.properties propsfile=C:\Users\Nico\Documents\ingeniería informática\Cuarto\DAI\HybridServer\junit3327532944744161074.properties" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_151" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="user.language" value="es" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="java.version" value="1.8.0_151" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_151\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_151\lib\resources.jar;C:\Program Files\Java\jre1.8.0_151\lib\rt.jar;C:\Program Files\Java\jre1.8.0_151\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_151\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_151\lib\jce.jar;C:\Program Files\Java\jre1.8.0_151\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_151\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_151\classes" />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="ant.file.type.HybridServer - Final" value="file" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+      </properties>
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.WelcomePageTest" name="testMultipleWelcome" time="0.373" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.WelcomePageTest" name="testWelcome" time="0.002" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPBadRequestsTest" name="test[Missing method]" time="0.001" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPBadRequestsTest" name="test[Missing resource]" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPBadRequestsTest" name="test[Missing version]" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPBadRequestsTest" name="test[Missing first line]" time="0.001" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPBadRequestsTest" name="test[Invalid header]" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPBadRequestsTest" name="test[Missing new line after header]" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETRootTest" name="testGetResourceChain" time="0.002" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETRootTest" name="testToString" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETRootTest" name="testGetHttpVersion" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETRootTest" name="testGetHeaderParameters" time="0.002" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETRootTest" name="testGetResourceName" time="0.002" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETRootTest" name="testGetResourcePath" time="0.001" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETRootTest" name="testGetContent" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETRootTest" name="testGetMethod" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETRootTest" name="testGetContentLength" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETRootTest" name="testGetResourceParameters" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETResourceTest" name="testGetResourceChain" time="0.001" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETResourceTest" name="testToString" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETResourceTest" name="testGetHttpVersion" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETResourceTest" name="testGetHeaderParameters" time="0.001" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETResourceTest" name="testGetResourceName" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETResourceTest" name="testGetResourcePath" time="0.001" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETResourceTest" name="testGetContent" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETResourceTest" name="testGetMethod" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETResourceTest" name="testGetContentLength" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETResourceTest" name="testGetResourceParameters" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETResourcesTest" name="testGetResourceChain" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETResourcesTest" name="testToString" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETResourcesTest" name="testGetHttpVersion" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETResourcesTest" name="testGetHeaderParameters" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETResourcesTest" name="testGetResourceName" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETResourcesTest" name="testGetResourcePath" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETResourcesTest" name="testGetContent" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETResourcesTest" name="testGetMethod" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETResourcesTest" name="testGetContentLength" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETResourcesTest" name="testGetResourceParameters" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETParametersTest" name="testGetResourceChain" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETParametersTest" name="testToString" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETParametersTest" name="testGetHttpVersion" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETParametersTest" name="testGetHeaderParameters" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETParametersTest" name="testGetResourceName" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETParametersTest" name="testGetResourcePath" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETParametersTest" name="testGetContent" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETParametersTest" name="testGetMethod" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETParametersTest" name="testGetContentLength" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestGETParametersTest" name="testGetResourceParameters" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTOneParameterTest" name="testGetResourceChain" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTOneParameterTest" name="testToString" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTOneParameterTest" name="testGetHttpVersion" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTOneParameterTest" name="testGetHeaderParameters" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTOneParameterTest" name="testGetResourceName" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTOneParameterTest" name="testGetResourcePath" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTOneParameterTest" name="testGetContent" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTOneParameterTest" name="testGetMethod" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTOneParameterTest" name="testGetContentLength" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTOneParameterTest" name="testGetResourceParameters" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTMultipleParametersTest" name="testGetResourceChain" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTMultipleParametersTest" name="testToString" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTMultipleParametersTest" name="testGetHttpVersion" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTMultipleParametersTest" name="testGetHeaderParameters" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTMultipleParametersTest" name="testGetResourceName" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTMultipleParametersTest" name="testGetResourcePath" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTMultipleParametersTest" name="testGetContent" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTMultipleParametersTest" name="testGetMethod" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTMultipleParametersTest" name="testGetContentLength" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTMultipleParametersTest" name="testGetResourceParameters" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTEncodedTest" name="testGetResourceChain" time="0.001" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTEncodedTest" name="testToString" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTEncodedTest" name="testGetHttpVersion" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTEncodedTest" name="testGetHeaderParameters" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTEncodedTest" name="testGetResourceName" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTEncodedTest" name="testGetResourcePath" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTEncodedTest" name="testGetContent" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTEncodedTest" name="testGetMethod" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTEncodedTest" name="testGetContentLength" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPRequestPOSTEncodedTest" name="testGetResourceParameters" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPResponseNoContentTest" name="testPrint" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPResponseNoContentWithHeadersTest" name="testPrint" time="0.001" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPResponseTest" name="testPrint" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week1.HTTPResponseWithHeadersTest" name="testPrint" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.CustomPortTest" name="testMultipleWelcome[0]" time="0.016" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.CustomPortTest" name="testWelcome[0]" time="0.002" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.CustomPortTest" name="testMultipleWelcome[1]" time="0.009" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.CustomPortTest" name="testWelcome[1]" time="0.001" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.CustomPortTest" name="testMultipleWelcome[2]" time="0.01" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.CustomPortTest" name="testWelcome[2]" time="0.002" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.CustomPortTest" name="testMultipleWelcome[3]" time="0.009" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.CustomPortTest" name="testWelcome[3]" time="0.002" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.CustomPortTest" name="testMultipleWelcome[4]" time="0.008" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.CustomPortTest" name="testWelcome[4]" time="0.002" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.CustomPortTest" name="testMultipleWelcome[5]" time="0.009" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.CustomPortTest" name="testWelcome[5]" time="0.002" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.CustomPortTest" name="testMultipleWelcome[6]" time="0.009" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.CustomPortTest" name="testWelcome[6]" time="0.002" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.CustomPortTest" name="testMultipleWelcome[7]" time="0.009" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.CustomPortTest" name="testWelcome[7]" time="0.003" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.CustomPortTest" name="testMultipleWelcome[8]" time="0.009" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.CustomPortTest" name="testWelcome[8]" time="0.002" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.CustomPortTest" name="testMultipleWelcome[9]" time="0.01" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.CustomPortTest" name="testWelcome[9]" time="0.001" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.ClientRequestsWithDatabaseTest" name="testPostInvalidContent" time="0.825" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.ClientRequestsWithDatabaseTest" name="testPost" time="0.544" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.ClientRequestsWithDatabaseTest" name="testGetInvalidResource" time="0.447" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.ClientRequestsWithDatabaseTest" name="testGetInvalidHtmlPage" time="0.509" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.ClientRequestsWithDatabaseTest" name="testGetHtmlList" time="0.51" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.ClientRequestsWithDatabaseTest" name="testDelete" time="0.472" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week3.ClientRequestsWithDatabaseTest" name="testDeleteNonexistentPage" time="0.427" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.HTMLClientRequestsWithDatabaseTest" name="testGet" time="0.84" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.HTMLClientRequestsWithDatabaseTest" name="testPost" time="0.657" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.HTMLClientRequestsWithDatabaseTest" name="testGetList" time="0.575" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.HTMLClientRequestsWithDatabaseTest" name="testDelete" time="0.644" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.HTMLClientRequestsWithDatabaseTest" name="testDeleteNonexistentPage" time="0.627" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.HTMLClientRequestsWithDatabaseTest" name="testGetInvalidPage" time="0.656" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.XMLClientRequestsWithDatabaseTest" name="testGet" time="0.731" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.XMLClientRequestsWithDatabaseTest" name="testPost" time="0.9" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.XMLClientRequestsWithDatabaseTest" name="testGetList" time="0.623" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.XMLClientRequestsWithDatabaseTest" name="testDelete" time="0.72" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.XMLClientRequestsWithDatabaseTest" name="testDeleteNonexistentPage" time="0.765" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.XMLClientRequestsWithDatabaseTest" name="testGetInvalidPage" time="0.704" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.XSDClientRequestsWithDatabaseTest" name="testGet" time="0.578" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.XSDClientRequestsWithDatabaseTest" name="testPost" time="0.687" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.XSDClientRequestsWithDatabaseTest" name="testGetList" time="0.641" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.XSDClientRequestsWithDatabaseTest" name="testDelete" time="0.908" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.XSDClientRequestsWithDatabaseTest" name="testDeleteNonexistentPage" time="1.111" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.XSDClientRequestsWithDatabaseTest" name="testGetInvalidPage" time="0.781" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.XSLTClientRequestsWithDatabaseTest" name="testPostWithBadXSD" time="0.594" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.XSLTClientRequestsWithDatabaseTest" name="testPost" time="0.656" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.XSLTClientRequestsWithDatabaseTest" name="testPostWithoutXSD" time="0.594" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.XSLTClientRequestsWithDatabaseTest" name="testGet" time="0.594" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.XSLTClientRequestsWithDatabaseTest" name="testGetList" time="0.662" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.XSLTClientRequestsWithDatabaseTest" name="testDelete" time="0.672" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.XSLTClientRequestsWithDatabaseTest" name="testDeleteNonexistentPage" time="0.594" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week7.XSLTClientRequestsWithDatabaseTest" name="testGetInvalidPage" time="0.891" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week9.ConvertedXMLTest" name="testInvalidXSLT" time="0.953" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week9.ConvertedXMLTest" name="testSimpleGet" time="0.766" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week9.ConvertedXMLTest" name="testInexistantXSLT" time="0.922" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week9.ConvertedXMLTest" name="testConvertedGet" time="0.846" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week9.InvalidConvertedXMLTest" name="testSimpleGet" time="0.724" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week9.InvalidConvertedXMLTest" name="testConvertedGet" time="0.968" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week9.InvalidXMLConfigurationLoaderTest" name="testLoad[Missing http parameter]" time="0.063" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week9.InvalidXMLConfigurationLoaderTest" name="testLoad[Missing database configuration]" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week9.InvalidXMLConfigurationLoaderTest" name="testLoad[Invalid http port number]" time="0.016" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week9.InvalidXMLConfigurationLoaderTest" name="testLoad[Invalid number of clients]" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week9.InvalidXMLConfigurationLoaderTest" name="testLoad[Missing attributes in server]" time="0.015" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week9.XMLConfigurationLoaderTest" name="testLoad" time="0.0" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.WelcomeAndListsMultipleServersTestCase" name="testHtmlList[Hybrid Server 1]" time="8.895" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.WelcomeAndListsMultipleServersTestCase" name="testWelcome[Hybrid Server 1]" time="4.033" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.WelcomeAndListsMultipleServersTestCase" name="testXsltList[Hybrid Server 1]" time="7.494" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.WelcomeAndListsMultipleServersTestCase" name="testXmlList[Hybrid Server 1]" time="7.661" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.WelcomeAndListsMultipleServersTestCase" name="testXsdList[Hybrid Server 1]" time="7.617" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.WelcomeAndListsMultipleServersTestCase" name="testHtmlList[Hybrid Server 2]" time="7.609" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.WelcomeAndListsMultipleServersTestCase" name="testWelcome[Hybrid Server 2]" time="2.973" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.WelcomeAndListsMultipleServersTestCase" name="testXsltList[Hybrid Server 2]" time="7.518" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.WelcomeAndListsMultipleServersTestCase" name="testXmlList[Hybrid Server 2]" time="7.252" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.WelcomeAndListsMultipleServersTestCase" name="testXsdList[Hybrid Server 2]" time="7.715" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.WelcomeAndListsMultipleServersTestCase" name="testHtmlList[Hybrid Server 3]" time="7.625" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.WelcomeAndListsMultipleServersTestCase" name="testWelcome[Hybrid Server 3]" time="3.185" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.WelcomeAndListsMultipleServersTestCase" name="testXsltList[Hybrid Server 3]" time="7.864" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.WelcomeAndListsMultipleServersTestCase" name="testXmlList[Hybrid Server 3]" time="7.816" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.WelcomeAndListsMultipleServersTestCase" name="testXsdList[Hybrid Server 3]" time="8.026" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.WelcomeAndListsMultipleServersTestCase" name="testHtmlList[Hybrid Server 4]" time="7.409" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.WelcomeAndListsMultipleServersTestCase" name="testWelcome[Hybrid Server 4]" time="3.014" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.WelcomeAndListsMultipleServersTestCase" name="testXsltList[Hybrid Server 4]" time="7.919" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.WelcomeAndListsMultipleServersTestCase" name="testXmlList[Hybrid Server 4]" time="7.504" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.WelcomeAndListsMultipleServersTestCase" name="testXsdList[Hybrid Server 4]" time="7.502" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.HtmlMultipleServersTestCase" name="testGetLocales[Hybrid Server 1]" time="3.448" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.HtmlMultipleServersTestCase" name="testGetRemotes[Hybrid Server 1]" time="3.846" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.HtmlMultipleServersTestCase" name="testInvalid[Hybrid Server 1]" time="46.639" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.HtmlMultipleServersTestCase" name="testGetLocales[Hybrid Server 2]" time="3.661" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.HtmlMultipleServersTestCase" name="testGetRemotes[Hybrid Server 2]" time="9.198" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.HtmlMultipleServersTestCase" name="testInvalid[Hybrid Server 2]" time="47.097" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.HtmlMultipleServersTestCase" name="testGetLocales[Hybrid Server 3]" time="3.69" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.HtmlMultipleServersTestCase" name="testGetRemotes[Hybrid Server 3]" time="9.747" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.HtmlMultipleServersTestCase" name="testInvalid[Hybrid Server 3]" time="47.061" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.HtmlMultipleServersTestCase" name="testGetLocales[Hybrid Server 4]" time="9.059" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.HtmlMultipleServersTestCase" name="testGetRemotes[Hybrid Server 4]" time="11.069" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.HtmlMultipleServersTestCase" name="testInvalid[Hybrid Server 4]" time="50.401" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XmlMultipleServersTestCase" name="testGetLocales[Hybrid Server 1]" time="4.283" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XmlMultipleServersTestCase" name="testGetRemotes[Hybrid Server 1]" time="3.738" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XmlMultipleServersTestCase" name="testInvalid[Hybrid Server 1]" time="46.247" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XmlMultipleServersTestCase" name="testGetLocales[Hybrid Server 2]" time="2.988" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XmlMultipleServersTestCase" name="testGetRemotes[Hybrid Server 2]" time="4.97" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XmlMultipleServersTestCase" name="testInvalid[Hybrid Server 2]" time="46.561" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XmlMultipleServersTestCase" name="testGetLocales[Hybrid Server 3]" time="3.324" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XmlMultipleServersTestCase" name="testGetRemotes[Hybrid Server 3]" time="6.58" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XmlMultipleServersTestCase" name="testInvalid[Hybrid Server 3]" time="46.374" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XmlMultipleServersTestCase" name="testGetLocales[Hybrid Server 4]" time="4.439" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XmlMultipleServersTestCase" name="testGetRemotes[Hybrid Server 4]" time="5.392" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XmlMultipleServersTestCase" name="testInvalid[Hybrid Server 4]" time="46.249" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XsdMultipleServersTestCase" name="testGetLocales[Hybrid Server 1]" time="3.875" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XsdMultipleServersTestCase" name="testGetRemotes[Hybrid Server 1]" time="3.885" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XsdMultipleServersTestCase" name="testInvalid[Hybrid Server 1]" time="46.931" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XsdMultipleServersTestCase" name="testGetLocales[Hybrid Server 2]" time="3.804" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XsdMultipleServersTestCase" name="testGetRemotes[Hybrid Server 2]" time="5.425" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XsdMultipleServersTestCase" name="testInvalid[Hybrid Server 2]" time="46.925" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XsdMultipleServersTestCase" name="testGetLocales[Hybrid Server 3]" time="3.971" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XsdMultipleServersTestCase" name="testGetRemotes[Hybrid Server 3]" time="5.695" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XsdMultipleServersTestCase" name="testInvalid[Hybrid Server 3]" time="46.906" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XsdMultipleServersTestCase" name="testGetLocales[Hybrid Server 4]" time="3.47" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XsdMultipleServersTestCase" name="testGetRemotes[Hybrid Server 4]" time="6.216" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XsdMultipleServersTestCase" name="testInvalid[Hybrid Server 4]" time="46.47" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XsltMultipleServersTestCase" name="testGetLocales[Hybrid Server 1]" time="4.207" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XsltMultipleServersTestCase" name="testGetRemotes[Hybrid Server 1]" time="3.67" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XsltMultipleServersTestCase" name="testInvalid[Hybrid Server 1]" time="46.653" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XsltMultipleServersTestCase" name="testGetLocales[Hybrid Server 2]" time="3.644" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XsltMultipleServersTestCase" name="testGetRemotes[Hybrid Server 2]" time="5.124" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XsltMultipleServersTestCase" name="testInvalid[Hybrid Server 2]" time="46.399" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XsltMultipleServersTestCase" name="testGetLocales[Hybrid Server 3]" time="3.053" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XsltMultipleServersTestCase" name="testGetRemotes[Hybrid Server 3]" time="5.83" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XsltMultipleServersTestCase" name="testInvalid[Hybrid Server 3]" time="46.233" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XsltMultipleServersTestCase" name="testGetLocales[Hybrid Server 4]" time="3.158" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XsltMultipleServersTestCase" name="testGetRemotes[Hybrid Server 4]" time="5.877" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.XsltMultipleServersTestCase" name="testInvalid[Hybrid Server 4]" time="46.245" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.TransformedMultipleServersTestCase" name="testBadXsltTransformations[Hybrid Server 1]" time="38.564" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.TransformedMultipleServersTestCase" name="testInvalidXsltTransformations[Hybrid Server 1]" time="4.035" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.TransformedMultipleServersTestCase" name="testBadXmlTransformations[Hybrid Server 1]" time="37.636" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.TransformedMultipleServersTestCase" name="testGetLocales[Hybrid Server 1]" time="3.424" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.TransformedMultipleServersTestCase" name="testCrossTransformations[Hybrid Server 1]" time="3.862" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.TransformedMultipleServersTestCase" name="testGetRemotes[Hybrid Server 1]" time="5.059" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.TransformedMultipleServersTestCase" name="testBadXsltTransformations[Hybrid Server 2]" time="40.048" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.TransformedMultipleServersTestCase" name="testInvalidXsltTransformations[Hybrid Server 2]" time="8.473" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.TransformedMultipleServersTestCase" name="testBadXmlTransformations[Hybrid Server 2]" time="38.229" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.TransformedMultipleServersTestCase" name="testGetLocales[Hybrid Server 2]" time="3.705" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.TransformedMultipleServersTestCase" name="testCrossTransformations[Hybrid Server 2]" time="10.998" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.TransformedMultipleServersTestCase" name="testGetRemotes[Hybrid Server 2]" time="17.814" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.TransformedMultipleServersTestCase" name="testBadXsltTransformations[Hybrid Server 3]" time="40.487" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.TransformedMultipleServersTestCase" name="testInvalidXsltTransformations[Hybrid Server 3]" time="8.08" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.TransformedMultipleServersTestCase" name="testBadXmlTransformations[Hybrid Server 3]" time="38.05" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.TransformedMultipleServersTestCase" name="testGetLocales[Hybrid Server 3]" time="4.005" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.TransformedMultipleServersTestCase" name="testCrossTransformations[Hybrid Server 3]" time="10.364" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.TransformedMultipleServersTestCase" name="testGetRemotes[Hybrid Server 3]" time="17.294" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.TransformedMultipleServersTestCase" name="testBadXsltTransformations[Hybrid Server 4]" time="40.879" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.TransformedMultipleServersTestCase" name="testInvalidXsltTransformations[Hybrid Server 4]" time="8.168" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.TransformedMultipleServersTestCase" name="testBadXmlTransformations[Hybrid Server 4]" time="38.174" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.TransformedMultipleServersTestCase" name="testGetLocales[Hybrid Server 4]" time="3.407" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.TransformedMultipleServersTestCase" name="testCrossTransformations[Hybrid Server 4]" time="9.809" />
+
+      <testcase classname="es.uvigo.esei.dai.hybridserver.week11.TransformedMultipleServersTestCase" name="testGetRemotes[Hybrid Server 4]" time="17.252" />
+
+      <system-out><![CDATA[Inserción realizada correctamente
+Borrado realizado correctamente
+Inserción realizada correctamente
+Borrado realizado correctamente
+Inserción realizada correctamente
+Borrado realizado correctamente
+Inserción realizada correctamente
+Borrado realizado correctamente
+Inserción realizada correctamente
+Borrado realizado correctamente
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+Fallo al acceder al WSDL en: http://localhost:20005/hs?wsdl. Ha fallado con: 
+	Connection refused: connect.
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
